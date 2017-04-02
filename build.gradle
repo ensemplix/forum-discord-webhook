@@ -5,6 +5,8 @@ apply plugin: 'idea'
 group = 'ru.ensemplix.discord.forum'
 version = '1.0-SNAPSHOT'
 
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
 repositories {
     mavenCentral()
 

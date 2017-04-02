@@ -1,9 +1,9 @@
 package ru.ensemplix.discord.forum;
 
-import ru.ensemplix.discord.DiscordEmbed;
-import ru.ensemplix.discord.DiscordEmbedBuilder;
-import ru.ensemplix.discord.DiscordHook;
-import ru.ensemplix.discord.DiscordMessageBuilder;
+import ru.ensemplix.discord.api.DiscordEmbed;
+import ru.ensemplix.discord.api.DiscordEmbedBuilder;
+import ru.ensemplix.discord.api.DiscordHook;
+import ru.ensemplix.discord.api.DiscordMessageBuilder;
 import ru.ensemplix.discord.forum.post.PostAuthor;
 import ru.ensemplix.discord.forum.post.PostMessage;
 import ru.ensemplix.discord.forum.post.PostPartition;

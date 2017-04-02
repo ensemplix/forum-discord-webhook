@@ -3,7 +3,7 @@ apply plugin: 'java'
 apply plugin: 'idea'
 
 group = 'ru.ensemplix.discord.forum'
-version = '1.0-SNAPSHOT'
+version = '1.0'
 
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 
@@ -35,5 +35,5 @@ publishing {
 }
 
 dependencies {
-    compile 'ru.ensemplix.discord:discord-webhook:1.0-SNAPSHOT'
+    compile 'ru.ensemplix.discord.api:discord-webhook:1.0'
 }
